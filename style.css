@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Inter Tight", sans-serif;
+    box-sizing: border-box;
+    transition:0.4s ease-in-out;
+    margin:0;
+    padding:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.main-container{
+    max-width: 1500px;
+    margin: auto;
+    /* display: flex; */
+    height: 1600px;
+    border:1px solid rgb(225, 221, 221);
+    background: linear-gradient(to right, #FDEBEB, #E8F0FE);
+}
+.nav-container img{
+        width:120px;
+        height:75px;
+        border-radius: 10px;
+}
+.nav-container {
+    display: flex;
+    background: linear-gradient(to right, #6A82FB, #690bb6);
+    max-width: 1500px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 1.3rem;
+
+}
+.nav-container h1{
+    color:rgb(23, 23, 155);
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    flex-grow: 5;
+    /* background-color: yellow; */
+    justify-content: flex-end;
+}
+
+#notif {
+    background-color: #F9F9FB;
+    padding: .6rem;
+    border-radius: .7rem;
+    margin-left: 1rem;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+.search-inp {
+    border: none;
+    background-color: #F9F9FB;
+    padding: 1rem;
+    border-radius: .7rem;
+    width: 100%;
+    margin-right: 8rem;
+    border:  1px solid grey;
+}
+.user-info>div>img {
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.name-email>.name {
+    font-weight: 700;
+    color: white;
+}
+
+.name-email{
+    display:flex;
+    flex-direction: column;
+}
+.name-email>.email {
+    font-weight: 700;
+    font-size: .7rem;
+    color: #9D9EA1;
+}
+.dashboard{
+    display:flex;
+    margin-top: 0px;;
+}
+.sidebar {
+    width: 300px;
+    height: 850px;
+    background: linear-gradient(to right, #690bb6, #6A82FB);
+    padding: 20px;
+    box-shadow: 10px 5px 5px #690bb6;
+    
+    /* position: fixed; */
+}
+
+.sidebar .menu-title,
+.sidebar .general-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:rgb(46, 46, 46);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.sidebar ul li a span {
+    margin-left: 10px;
+}
+
+.sidebar .general{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.sidebar .logout { 
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.sidebar .logout a {
+    text-decoration: none;
+    color: #3c8dbc;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.sidebar ul li a:hover {
+    background-color:rgb(54, 11, 163);
+    color: white;
+    border-radius: 10px;
+}
+.sidebar:hover{
+    transform: scale(1.05);
+    background-color: #e6f7ff;
+    margin-top: 30px;
+}
+.sidebar .logout a:hover{
+    transform: scale(1.1);
+    color:black;
+}
+.Footer {
+    display: flex;
+    margin-top: 30px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 50px;
+    color: white;
+    font-size: 15px;
+    height: 400px;
+}
+
+.columns h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.columns p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(95, 128, 143);
+}
+
+.columns p:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.Logo-info {
+    margin-top: 60px;
+    width: 40%;
+    display: block;
+
+
+}
+
+.follow {
+    color: white;
+    margin-left: 220px;
+    font-size: 15px;
+}
+
+.Logo {
+    justify-content: space-around;
+    display: flex;
+    width: 50%;
+    margin-left: 200px;
+}
+
+.FinEase-footer {
+    display: flex;
+    background-color: black;
+    max-width: 1500px;
+    margin: auto;
+    height: auto;
+}
+
+.FinEase-footer p {
+    color: white;
+    margin-left: 1100px;
+
+}
+
+.FinEase-footer img {
+    width: 100px;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+
+}
+
+.footer-container {
+    display: block;
+    background-color: black;
+    margin: auto;
+
+}
